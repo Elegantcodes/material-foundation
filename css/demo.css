@@ -7345,7 +7345,7 @@ th.hide-for-touch {
   .theme-dark .text-headline, .theme-dark h2.demo-headline, .theme-dark .text-title, .theme-dark .text-subhead, .theme-dark .summary h1, .summary .theme-dark h1, .theme-dark .text-body-2, .theme-dark .text-body-1, .theme-dark .text-menu, .theme-dark .text-button, .theme-dark .tabs dd a, .tabs dd .theme-dark a, .theme-dark .raised-button, .theme-dark .flat-button, .theme-dark .disabled-button, .theme-dark i {
     color: rgba(255, 255, 255, 0.87); }
 
-.z-depth-1, .raised-button, .floating-action-button, .top-bar {
+.z-depth-1, .raised-button, .floating-action-button, .card, .top-bar {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.13), 0 1px 5px 0 rgba(0, 0, 0, 0.08); }
 
 .z-depth-1-hard, .switch input + label:after {
@@ -9944,6 +9944,10 @@ th.hide-for-touch {
 *[aria-expanded="true"] + .f-dropdown {
   max-height: 200px;
   opacity: 1; }
+
+.card {
+  border-radius: 2px;
+  background: white; }
 
 .top-bar .top-bar-section .has-icon {
   height: 64px;
